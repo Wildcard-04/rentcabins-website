@@ -492,3 +492,95 @@
         opacity:1!important;
     }
 }
+
+
+/* v4.9 service photo fit */
+.photo-card img,
+.service-image img,
+.service-photo img,
+.placeholder img{
+    width:100%;
+    height:100%;
+    min-height:180px;
+    object-fit:cover;
+    display:block;
+    border-radius:inherit;
+}
+
+
+/* v4.9.4 FAQ format restore */
+.faq-grid{
+    display:grid;
+    grid-template-columns:.9fr 1.1fr;
+    gap:72px;
+    align-items:start;
+}
+
+.faq-list{
+    display:grid;
+    gap:18px;
+}
+
+.faq-list details{
+    background:rgba(255,253,248,.78);
+    border:1px solid var(--line, rgba(164,106,42,.18));
+    border-radius:20px;
+    padding:24px 28px;
+}
+
+.faq-list summary{
+    cursor:pointer;
+    font-weight:800;
+    color:var(--ink);
+}
+
+.faq-list details p{
+    margin:18px 0 0;
+    color:var(--ink);
+}
+
+@media(max-width:900px){
+    .faq-grid{
+        grid-template-columns:1fr;
+        gap:32px;
+    }
+}
+
+
+/* v4.9.6 WINZ trust bar */
+.hero-trust-bar{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    align-items:center;
+    margin-top:22px;
+}
+
+.hero-trust-bar span{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 16px;
+    border:1px solid var(--line, rgba(164,106,42,.18));
+    border-radius:999px;
+    background:rgba(255,253,248,.82);
+    color:var(--ink);
+    font-weight:700;
+    box-shadow:0 8px 22px rgba(45,35,20,.06);
+}
+
+.hero-trust-bar span::before{
+    content:"✓";
+    color:var(--brand, #9a622a);
+    font-weight:900;
+}
+
+@media(max-width:620px){
+    .hero-trust-bar{
+        gap:10px;
+    }
+    .hero-trust-bar span{
+        width:100%;
+        justify-content:center;
+    }
+}
