@@ -1,13 +1,19 @@
 # rentcabins-website
-Rencabins.nz - $80p/w - free delivery Dargaville, Warkworth Northland, Auckland
 
+RentCabins.nz website. Hosted on Cloudflare Pages and deployed from GitHub.
 
-## Version 4.9.8 changes
+## Version 5.2 production release
 
-- Contact form now sends enquiries to hello@rentcabins.nz using FormSubmit.
-- First live form submission may require email confirmation from FormSubmit.
-- Added Trade Me listing links in the hero, contact section, footer, and thank-you page.
-- Added SEO title, meta description, keywords, canonical URL, Open Graph metadata, and LocalBusiness structured data.
-- Added sitemap.xml and robots.txt for Google indexing.
-- Added favicon files generated from the RentCabins logo.
-- Added Google Analytics placeholder. Replace `G-XXXXXXXXXX` in index.html with the real GA4 Measurement ID.
+- Installed Google Analytics 4 using Measurement ID `G-E3SBLTD9D6`.
+- Verified contact form sends enquiries to `hello@rentcabins.nz` using FormSubmit.
+- Added FormSubmit hidden fields for subject, table layout, success redirect, and captcha-off setting.
+- Verified Trade Me links point to the supplied member listing search.
+- Improved SEO title, meta description, keywords, canonical URL, Open Graph metadata, and LocalBusiness structured data.
+- Verified favicon files, sitemap.xml, robots.txt, and thank-you page.
+- Added lazy loading/async decoding to non-critical images.
+- Compressed large image assets and removed deployment-unneeded files from the release ZIP.
+
+## Pending
+
+- Add Facebook Marketplace link once available.
+- Connect Google Search Console and submit `https://rentcabins.nz/sitemap.xml`.
