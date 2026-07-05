@@ -584,3 +584,11 @@
         justify-content:center;
     }
 }
+
+
+/* Version 4.9.8 - form, links, and thank-you page polish */
+.contact-card a{color:var(--brand);font-weight:800;text-decoration:none;}
+.contact-card a:hover{text-decoration:underline;}
+.thank-you-page{min-height:100vh;display:grid;align-items:center;background:radial-gradient(circle at 80% 10%,#f4d29a,transparent 34%),linear-gradient(180deg,#fff8ec,transparent);}
+.thank-you-card{max-width:820px;background:var(--paper);border:1px solid var(--line);border-radius:30px;padding:48px;box-shadow:var(--shadow);}
+.thank-you-card h1{font-size:clamp(2.2rem,5vw,4rem);}

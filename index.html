@@ -3,8 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rentcabins | Affordable Portable Cabins for Rent</title>
-  <meta name="description" content="Rentcabins provides affordable portable cabin hire from $80 per week, with delivery available from the Warkworth branch." />
+  <title>RentCabins NZ | Portable Cabin Hire from $80/week</title>
+  <meta name="description" content="Affordable portable cabin hire from $80 per week. RentCabins supplies warm, practical cabins from Dargaville and Warkworth, with free quotes and local delivery available." />
+  <meta name="keywords" content="portable cabin hire NZ, cabin rental Northland, rent cabins Warkworth, rent cabins Dargaville, sleepout hire, portable cabins Auckland, WINZ cabin supplier" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://rentcabins.nz/" />
+
+  <meta property="og:title" content="RentCabins NZ | Affordable Portable Cabin Hire" />
+  <meta property="og:description" content="Portable cabins for work, rest, play, or earning extra income. Weekly pricing from $80, free quotes, and delivery available from Dargaville and Warkworth." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rentcabins.nz/" />
+  <meta property="og:image" content="https://rentcabins.nz/images/hero-cabin.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Google Analytics: replace G-XXXXXXXXXX with your Measurement ID when ready -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "RentCabins",
+    "url": "https://rentcabins.nz/",
+    "email": "hello@rentcabins.nz",
+    "telephone": "+64 21 548 844",
+    "areaServed": ["Dargaville", "Warkworth", "Northland", "Auckland Region"],
+    "description": "Affordable portable cabin hire with weekly pricing, free quotes, and delivery available from Dargaville and Warkworth."
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -35,7 +72,7 @@
           <div class="hero-actions">
             <a href="#contact" class="btn primary">Request a cabin</a>
             <a href="#pricing" class="btn secondary">View pricing</a>
-          <a href="https://www.trademe.co.nz/a/search?member_listing=9693798" class="btn secondary" target="_blank" rel="noopener">View Stock</a>
+          <a href="https://www.trademe.co.nz/a/search?member_listing=9693798" class="btn secondary" target="_blank" rel="noopener">View Trade Me listings</a>
           </div>
         <div class="hero-trust-bar" aria-label="RentCabins trust and support options">
           <span><strong>Registered Work and Income (WINZ) Supplier</strong></span>
@@ -251,17 +288,25 @@
           <div class="contact-card">
 <p><strong>Dargaville:</strong> Ryan — 021 54 88 44</p>
 <p><strong>Warkworth:</strong> Bruce — 021 823 269</p>
-<p><strong>Email:</strong> hello@rentcabins.nz</p>
+<p><strong>Email:</strong> <a href="mailto:hello@rentcabins.nz">hello@rentcabins.nz</a></p>
+<p><strong>Trade Me:</strong> <a href="https://www.trademe.co.nz/a/search?member_listing=9693798" target="_blank" rel="noopener">View our current listings</a></p>
 <p><strong>Service Area:</strong> Dargaville, Warkworth, Central Northland, Auckland Region</p>
 </div>
         </div>
-        <form class="enquiry-form" action="mailto:hello@rentcabins.nz" method="post" enctype="text/plain">
+        <form class="enquiry-form" action="https://formsubmit.co/hello@rentcabins.nz" method="POST">
+          <input type="hidden" name="_subject" value="New RentCabins website enquiry">
+          <input type="hidden" name="_next" value="https://rentcabins.nz/thank-you.html">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
           <label>Name<input type="text" name="name" placeholder="Your name" required></label>
           <label>Phone<input type="tel" name="phone" placeholder="Your phone number" required></label>
+          <label>Email<input type="email" name="email" placeholder="Your email address"></label>
           <label>Location<input type="text" name="location" placeholder="Town / suburb" required></label>
+          <label>Cabin needed from<input type="text" name="preferred_start_date" placeholder="Preferred start date, if known"></label>
           <label>Message<textarea name="message" rows="5" placeholder="Tell us what you need a cabin for"></textarea></label>
           <button type="submit" class="btn primary full">Send enquiry</button>
-          <p class="fine-print">Thank you for reaching out. We look forward to helping you.</p>
+          <p class="fine-print">Your enquiry will be emailed to hello@rentcabins.nz. We usually reply as soon as possible.</p>
         </form>
       </div>
     </section>
@@ -270,7 +315,7 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div><strong>Rentcabins</strong><p>Affordable portable cabin hire.</p></div>
-      <div><a href="#pricing">Pricing</a><a href="#contact">Contact</a><a href="#faq">FAQ</a></div>
+      <div><a href="#pricing">Pricing</a><a href="#contact">Contact</a><a href="#faq">FAQ</a><a href="https://www.trademe.co.nz/a/search?member_listing=9693798" target="_blank" rel="noopener">Trade Me</a></div>
     </div>
   </footer>
 
